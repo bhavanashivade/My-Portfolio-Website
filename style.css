@@ -119,6 +119,8 @@ header .user img {
     object-fit: cover;
     margin-bottom: 1rem;
     border: .7rem solid yellow;
+
+    margin-left: -120px;
 }
 
 .navbar {
@@ -135,12 +137,21 @@ header .user .name {
     font-size: 3.5rem;
     color: black;
 
+    margin-left: -100px;
+
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
+
+
 
 header .user .post {
     font-size: 2rem;
     color: black;
+
+    margin-left: -100px;
 }
+
 
 
 header .navbar {
@@ -151,6 +162,34 @@ header .navbar ul {
     list-style: none;
     /* padding: 1rem 3rem; */
 }
+
+header .navbar ul i {
+
+    font-size: 30px;
+
+    margin-right: 15px;
+
+    margin-top: 10px;
+
+}
+
+header .navbar ul li {
+
+    margin-left: 10px;
+}
+
+header .navbar .j li {
+
+
+
+
+
+    /* margin-top: -500px; */
+
+    margin-left: -1px;
+}
+
+
 
 header .navbar ul li a {
     display: block;
@@ -170,16 +209,24 @@ header .navbar ul li a:hover {
 .icon i {
 
 
-    font-size: 20px;
+    font-size: 25px;
+
+    margin-left: 15px;
+
+    /* float: left; */
+
+    /* padding-left: 25px; */
+
+
 
 }
 
 
-.navbar i {
+/* .navbar i {
 
     font-size: 20px;
 
-}
+} */
 
 
 .navbar ul {
