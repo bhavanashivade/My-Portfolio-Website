@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+
+:root {
+    --yellow: #f9ca24;
+}
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection {
+    background: yellow;
+    color: #272525;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+}
+
+html::-webkit-scrollbar {
+    width: 1.4rem;
+}
+
+
+
+html::-webkit-scrollbar-track {
+    background: #040404;
+
+}
+
+html::-webkit-scrollbar-thumb {
+    background: yellow;
+}
+
+
+
+body {
+    background: rgb(232, 231, 231);
+    overflow-x: hidden;
+    padding-left: 35rem;
+}
+
+section {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.btn {
+    padding: 1rem 7rem;
+    background: #635c5c;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+
+}
+
+
+.btn i {
+    padding: 0 .5rem;
+    font-size: 1.8rem;
+
+}
+
+.btn:hover {
+    background: yellow;
+}
+
+
+.heading {
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+
+.heading span {
+    color: yellow;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+
+header .user img {
+    height: 17rem;
+    width: 17rem;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid yellow;
+}
+
+.navbar {
+
+    padding-top: 50px;
+}
+
+.navbar .icon {
+
+    padding-top: 50px;
+}
+
+header .user .name {
+    font-size: 3.5rem;
+    color: black;
+
+}
+
+header .user .post {
+    font-size: 2rem;
+    color: black;
+}
+
+
+header .navbar {
+    width: 100%;
+}
+
+header .navbar ul {
+    list-style: none;
+    /* padding: 1rem 3rem; */
+}
+
+header .navbar ul li a {
+    display: block;
+    padding: 1rem;
+    /* margin: 1.5rem 0; */
+    /* background: #585454; */
+    color: black;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+header .navbar ul li a:hover {
+    /* background: yellow; */
+}
+
+
+.icon i {
+
+
+    font-size: 20px;
+
+}
+
+
+.navbar i {
+
+    font-size: 20px;
+
+}
+
+
+.navbar ul {
+    display: flex;
+    margin-left: 30px;
+}
+
+
+
+.home h1 {
+
+    margin-top: 50px;
+
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+
+
+.F {
+    margin-top: 50px;
+}
+
+
+
+.F h2 {
+
+    margin-top: 10px;
+    font-size: 25px;
+    /* text-align: center; */
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.CB {
+    height: 350px;
+    width: 30%;
+    float: left;
+    margin-left: 35px;
+    /* margin-right: -15px; */
+}
+
+
+.CB p {
+    text-align: justify;
+    width: 90%;
+}
+
+
+.CB img {
+    width: 90%;
+    height: 250px;
+
+}
+
+
+.CB h5 {
+    color: grey;
+}
+
+
+
+
+.G .CC {
+
+    margin-top: 150px;
+
+
+
+}
+
+
+
+.G h2 {
+
+    margin-top: 10px;
+    font-size: 25px;
+    /* text-align: center; */
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.CC {
+
+
+    height: 350px;
+    width: 30%;
+    float: left;
+    margin-left: 35px;
+    /* margin-right: -15px; */
+
+}
+
+
+.CC p {
+    text-align: justify;
+    width: 90%;
+}
+
+
+.CC img {
+    width: 90%;
+    height: 250px;
+
+}
+
+
+.CC h5 {
+    color: grey;
+}
+
+
+
+
+.about {
+
+    display: flex;
+
+    margin-top: 80px;
+
+    margin-left: 30px;
+
+    gap: 30px;
+
+
+
+}
+
+.about img {
+
+    height: 45vh;
+    width: 47%;
+}
+
+
+
+
+
+
+
+.Services .n {
+
+    margin-top: 70px;
+    /* margin-bottom: 70px; */
+
+}
+
+
+
+
+
+.Services .n h1 {
+
+    font-size: 40px;
+
+    color: black;
+
+    margin-left: 40px;
+}
+
+
+
+.Services .n p {
+
+    font-size: 15px;
+
+    color: black;
+
+    margin-left: 40px;
+
+    margin-top: 20px;
+
+    margin-right: 40px;
+
+}
+
+
+.about .p h1 {
+
+    font-size: 40px;
+
+    color: black;
+
+    margin-left: 5px;
+}
+
+
+
+
+.bn {
+
+    /* height: 120vh; */
+    /* width: 98vw; */
+
+
+    /* background-color: grey; */
+
+    background-size: cover;
+
+    margin-left: -210px;
+
+    /* gap: 50px; */
+
+    margin-top: 30px;
+
+}
+
+
+
+.table6 {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax());
+
+    height: 100px;
+    /* margin-left: 100px; */
+    padding: 50px;
+
+    /* margin: 6000px; */
+
+    gap: 30px;
+
+    margin-bottom: 500px;
+
+    margin-left: 200px;
+}
+
+
+.table6 tr td {
+    background-color: white;
+}
+
+
+.table6 tr th {
+    color: white;
+    font-size: 30px;
+}
+
+.table6 .m {
+    background-color: black;
+
+
+}
+
+
+
+.table6 .n th {
+    background-color: red;
+    /* height: 20vh; */
+
+}
+
+
+.table6 button {
+    color: white;
+    background-color: green;
+    height: 40px;
+    width: 100px;
+
+}
+
+
+.table6 button {
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+
+}
+
+
+.table6 tr td {
+    font-size: 20px;
+}
+
+
+.table6 table,
+tr,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    grid-template-columns: auto;
+
+    width: 330px;
+    text-align: center;
+}
+
+
+
+.table6 table tr {
+    height: 50px;
+    padding: 30px;
+
+}
+
+.table6 table tr th {
+    height: 90px;
+}
+
+.table6 table td button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.contact {
+
+
+
+    height: 90vh;
+    width: 98vw;
+
+
+    background-color: rgb(185, 179, 179);
+
+    background-size: cover;
+
+    margin-left: -210px;
+
+    /* gap: 50px; */
+
+    margin-top: 30px;
+
+
+}
+
+
+
+.contact .contact1 h1 {
+    text-align: center;
+
+    padding-top: 50px;
+
+    font-size: 30px;
+
+    margin-bottom: 50px;
+}
+
+
+
+.contact2 {
+
+    text-align: center;
+
+    display: flex;
+
+    padding: 10px;
+    transition: 0.3s;
+
+    justify-content: center;
+
+    gap: 100px;
+}
+
+.contact2 .g i {
+
+    font-size: 30px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.contact2 .g h1 {
+
+    font-size: 20px;
+}
+
+
+
+
+.contact3 {
+
+    height: 80px;
+    /* width: 102%; */
+    float: left;
+
+    margin-top: 100px;
+
+    text-align: center;
+
+    /* margin-left: -200px; */
+}
+
+
+form input {
+    display: block;
+    /* width: 98vw; */
+
+    width: 65vw;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* border: none; */
+    /* border-radius: 5px; */
+    background-color: #f7f7f7;
+    color: #333;
+
+    margin-right: 300px;
+
+    float: right;
+
+
+
+}
+
+.contact3 button {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+
+    margin-top: 200px;
+
+    margin-right: -400px;
+
+    /* float: right; */
+
+    /* padding-right: -50px; */
+
+}
+
+
+
+
+
+.o {
+    display: flex;
+
+    margin-left: 100px;
+    margin-right: 50px;
+
+    border-radius: 10px;
+
+    gap: 60px;
+
+    /* margin-top: 60px; */
+
+
+
+    height: 50vh;
+    width: 98vw;
+
+
+    background-color: rgb(124, 121, 121);
+
+
+    background-size: cover;
+
+    margin-left: -10px;
+
+
+
+
+
+
+}
+
+.o .footer h1 {
+
+    font-size: 30px;
+
+    margin-top: 50px;
+
+    margin-left: 20px;
+
+
+
+
+}
+
+
+.o .footer p {
+
+    font-size: 15px;
+
+    margin-left: 20px;
+
+}
+
+.o .footer h3 {
+
+    font-size: 15px;
+
+    margin-top: 20px;
+
+    margin-left: 20px;
+
+}
+
+
+
+
+
+
+.o .blogs h1 {
+
+
+    font-size: 25px;
+
+    margin-top: 50px;
+}
+
+
+
+.blogs .blog img {
+
+    height: 80px;
+
+    width: 10vw;
+
+    /* margin-top: 50px; */
+
+}
+
+.blogs .blog1 img {
+
+    height: 80px;
+    width: 9vw;
+}
+
+
+
+.blogs .blog {
+
+    display: flex;
+
+    margin-top: 50px;
+
+    gap: 20px;
+}
+
+
+.blogs .blog1 {
+
+    display: flex;
+
+    margin-top: 50px;
+
+    gap: 20px;
+
+
+}
+
+
+.blogs .blog .b {
+
+    font-size: 15px;
+}
+
+.blogs .blog1 .b {
+
+    font-size: 15px;
+}
+
+
+
+
+.blogs .blog .b h3 {
+    margin-bottom: 10px;
+
+    margin-top: 10px;
+}
+
+
+.blogs .blog1 .b h3 {
+    margin-bottom: 10px;
+
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.blogs .popular .b {
+
+    margin-bottom: 10px;
+
+}
+
+
+.popular {
+    margin-bottom: 150px;
+}
+
+
+.popular .a h1 {
+
+    font-size: 25px;
+
+    margin-top: 50px;
+}
+
+
+
+.popular .b button {
+
+    color: white;
+    background-color: rgb(138, 133, 133);
+
+    font-size: 15px;
+}
+
+.popular .b .n {
+    color: white;
+
+    background-color: black;
+}
+
+
+.e {
+
+
+
+    height: 10vh;
+    width: 98vw;
+
+
+    background-color: black;
+
+
+    background-size: cover;
+
+    margin-left: -10px;
+
+}
+
+.e h1 {
+
+    color: white;
+
+    font-size: 20px;
+    text-align: center;
+    /* margin-top: 50px; */
+
+    padding-top: 20px;
+
+    margin-left: -200px;
+}
