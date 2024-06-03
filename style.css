@@ -113,14 +113,14 @@ header {
 
 
 header .user img {
-    height: 17rem;
-    width: 17rem;
+    height: 15rem;
+    width: 15rem;
     /* border-radius: 50%; */
     object-fit: cover;
     margin-bottom: 1rem;
     border: .7rem solid yellow;
 
-    margin-left: -120px;
+    margin-left: -150px;
 }
 
 .navbar {
@@ -134,10 +134,10 @@ header .user img {
 }
 
 header .user .name {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: black;
 
-    margin-left: -100px;
+    margin-left: -150px;
 
     margin-bottom: 5px;
     margin-top: 20px;
@@ -146,10 +146,10 @@ header .user .name {
 
 
 header .user .post {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: black;
 
-    margin-left: -100px;
+    margin-left: -150px;
 }
 
 
@@ -165,7 +165,7 @@ header .navbar ul {
 
 header .navbar ul i {
 
-    font-size: 30px;
+    font-size: 25px;
 
     margin-right: 15px;
 
@@ -175,7 +175,7 @@ header .navbar ul i {
 
 header .navbar ul li {
 
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 header .navbar .j li {
@@ -213,20 +213,9 @@ header .navbar ul li a:hover {
 
     margin-left: 15px;
 
-    /* float: left; */
-
-    /* padding-left: 25px; */
-
-
-
 }
 
 
-/* .navbar i {
-
-    font-size: 20px;
-
-} */
 
 
 .navbar ul {
@@ -589,88 +578,7 @@ th {
     gap: 100px;
 
 
-
-
 }
-
-
-/* .contact2 .g {
-
-    background-color: red;
-
-}
-
-
-.contact2 .g i {
-
-    font-size: 30px;
-    margin-bottom: 30px;
-
-
-}
-
-
-.contact2 .g h1 {
-
-    font-size: 20px;
-}
-
-
-
-
-.contact2 .m {
-
-    background-color: red;
-
-}
-
-
-.contact2 .m i {
-
-    font-size: 30px;
-    margin-bottom: 30px;
-
-
-}
-
-
-.contact2 .m h1 {
-
-    font-size: 20px;
-}
-
-
-
-
-.contact2 .n {
-
-    background-color: red;
-
-}
-
-
-.contact2 .n i {
-
-    font-size: 30px;
-    margin-bottom: 30px;
-
-
-}
-
-
-.contact2 .n h1 {
-
-    font-size: 20px;
-} */
-
-
-
-
-
-
-
-
-
 
 
 .contact2 .g i {
@@ -710,13 +618,12 @@ form input {
 
     width: 89vw;
 
-    /* width: 70vw; */
+
 
 
     margin-bottom: 10px;
     padding: 10px;
-    /* border: none; */
-    /* border-radius: 5px; */
+
     background-color: #f7f7f7;
     color: #333;
 
@@ -738,10 +645,6 @@ form input {
 
     margin-right: -400px;
 
-    /* float: right; */
-
-    /* padding-right: -50px; */
-
 }
 
 
@@ -758,10 +661,6 @@ form input {
 
     gap: 60px;
 
-    /* margin-top: 60px; */
-
-
-
     height: 50vh;
     width: 98vw;
 
@@ -774,10 +673,6 @@ form input {
     margin-left: -10px;
 
 
-
-
-
-
 }
 
 .o .footer h1 {
@@ -787,8 +682,6 @@ form input {
     margin-top: 50px;
 
     margin-left: 20px;
-
-
 
 
 }
@@ -816,9 +709,6 @@ form input {
 
 
 
-
-
-
 .o .blogs h1 {
 
 
@@ -835,7 +725,7 @@ form input {
 
     width: 10vw;
 
-    /* margin-top: 50px; */
+
 
 }
 
@@ -897,14 +787,6 @@ form input {
 
 
 
-
-
-
-
-
-
-
-
 .blogs .popular .b {
 
     margin-bottom: 10px;
@@ -958,7 +840,6 @@ form input {
 .e {
 
 
-
     height: 10vh;
     width: 98vw;
 
@@ -970,8 +851,6 @@ form input {
 
     margin-left: -10px;
 
-
-
 }
 
 .e h1 {
@@ -980,7 +859,6 @@ form input {
 
     font-size: 20px;
     text-align: center;
-    /* margin-top: 50px; */
 
     padding-top: 20px;
 
