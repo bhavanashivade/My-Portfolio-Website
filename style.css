@@ -479,7 +479,7 @@ header .navbar ul li a:hover {
 
 
 .table6 .n th {
-    background-color: red;
+    background-color: green;
     /* height: 20vh; */
 
 }
@@ -496,7 +496,7 @@ header .navbar ul li a:hover {
 
 .table6 button {
     color: white;
-    background-color: black;
+    background-color: green;
     height: 40px;
     width: 100px;
 
@@ -587,7 +587,91 @@ th {
     justify-content: center;
 
     gap: 100px;
+
+
+
+
 }
+
+
+/* .contact2 .g {
+
+    background-color: red;
+
+}
+
+
+.contact2 .g i {
+
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+
+.contact2 .g h1 {
+
+    font-size: 20px;
+}
+
+
+
+
+.contact2 .m {
+
+    background-color: red;
+
+}
+
+
+.contact2 .m i {
+
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+
+.contact2 .m h1 {
+
+    font-size: 20px;
+}
+
+
+
+
+.contact2 .n {
+
+    background-color: red;
+
+}
+
+
+.contact2 .n i {
+
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+
+.contact2 .n h1 {
+
+    font-size: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
 
 .contact2 .g i {
 
@@ -624,7 +708,11 @@ form input {
     display: block;
     /* width: 98vw; */
 
-    width: 65vw;
+    width: 89vw;
+
+    /* width: 70vw; */
+
+
     margin-bottom: 10px;
     padding: 10px;
     /* border: none; */
@@ -632,7 +720,7 @@ form input {
     background-color: #f7f7f7;
     color: #333;
 
-    margin-right: 300px;
+    margin-right: -68px;
 
     float: right;
 
@@ -881,6 +969,8 @@ form input {
     background-size: cover;
 
     margin-left: -10px;
+
+
 
 }
 
